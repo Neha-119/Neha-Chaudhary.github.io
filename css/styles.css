@@ -3,11 +3,21 @@ html {
 }
 #loading{
   position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  transition: 0.5s;
+  visibility: visible;
   background:#0f0f0f url('https://i.gifer.com/Vvla.gif')
   no-repeat center center;
 	height: 100vh;
 	width: 100%;
   z-index: 99999;
+}
+#loading.hidden{
+  opacity: 0;
+  visibility: hidden;
 }
 #title{
   text-align: left;
