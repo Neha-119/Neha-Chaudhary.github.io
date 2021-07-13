@@ -7,4 +7,4 @@ setTimeout(() => {
 }, 1500);
 setTimeout(function() {
   $('#loading').addClass('hidden');
-}, 2500);
+}, 2700);
