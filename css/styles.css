@@ -9,7 +9,8 @@ html {
   bottom:0;
   transition: 0.5s;
   visibility: visible;
-  background:#0f0f0f url('https://i.gifer.com/Vvla.gif')
+  /* background:#0f0f0f url('https://i.gifer.com/Vvla.gif') */
+  background:#111111 url('../images/load.gif')
   no-repeat center center;
 	height: 100vh;
 	width: 100%;
